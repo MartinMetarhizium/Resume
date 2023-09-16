@@ -227,7 +227,18 @@ footer a:hover{
     }
 }
     
+@media screen and (max-width:859px){
+    .work-item{
+      display:flex;
 
+        column-gap: 20px;
+    }
+    .work summary p:first-child{
+        margin-top: 0;
+    }
+}
+
+}
 
 
 .education-item{
